@@ -32,7 +32,7 @@ body {
 }
 
 .gallery img:hover{
-  filter: grayscale(0);
+  filter: grayscale(0%);
   width:  calc(var(--s)*var(--f));
   height: calc(var(--s)*var(--f));
 }
