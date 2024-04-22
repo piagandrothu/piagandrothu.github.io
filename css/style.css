@@ -14,6 +14,7 @@ body {
 
 .layout_padding2 {
   padding: 45px 0;
+  margin:0 auto;
 }
 
 .layout_padding2-top {
@@ -760,6 +761,7 @@ a:focus {
 .info_section {
   background-color: #160e0b;
   color: #ffffff;
+  margin:0 auto;
 }
 
 .info_section .info_form_social_row {
