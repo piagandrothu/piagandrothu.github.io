@@ -94,22 +94,23 @@
   <!-- end about section -->
 
   <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="row info_form_social_row">
-        <div class="col-md-8 col-lg-9">
-          <div class="info_form">
-            <form action="https://formspree.io/f/xjvnjkzy" method="POST">
-              <div style="padding-right:20px">Your email:</div>
-              <div style="padding-right:20px"><input type="email" placeholder="Enter your email"></div>
-              <div style="padding-right:20px">Your message:</div>
-              <div style="padding-right:20px"><textarea name-"message"></textarea></div>
-              <button>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </button>
-            </form>
-          </div>
-        </div>
+   <section class="info_section layout_padding2">
+    <div class="container" style="margin:0 auto">
+      <form
+        action="https://formspree.io/f/xjvnjkzy"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message" style="width:171px; height:30px;"></textarea>
+        </label>
+  <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+        </form>
       </div>
       <div class="row info_main_row"> 
         <div class="col-md-6 col-lg-3">
