@@ -8,15 +8,16 @@ body {
   overflow-x: hidden;
 }
 .gallery {
-  --s: 150px; /* control the size */
-  --g: 10px;  /* control the gap */
-  --f: 1.5;   /* control the scale factor */
+  --s: 300px; /* control the size */
+  --g: 25px;  /* control the gap */
+  --f: 3;   /* control the scale factor */
   
   display: grid;
   gap: var(--g);
   width: calc(3*var(--s) + 2*var(--g));
   aspect-ratio: 1;
   grid-template-columns: repeat(3,auto);
+  place-content: center;
 }
 
 .gallery > img {
@@ -31,7 +32,7 @@ body {
 }
 
 .gallery img:hover{
-  filter: grayscale(0);
+  filter: grayscale(50);
   width:  calc(var(--s)*var(--f));
   height: calc(var(--s)*var(--f));
 }
