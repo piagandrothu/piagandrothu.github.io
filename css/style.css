@@ -8,9 +8,9 @@ body {
   overflow-x: hidden;
 }
 .gallery {
-  --s: 300px; /* control the size */
-  --g: 25px;  /* control the gap */
-  --f: 3;   /* control the scale factor */
+  --s: 200px; /* control the size */
+  --g: 15px;  /* control the gap */
+  --f: 2;   /* control the scale factor */
   
   display: grid;
   gap: var(--g);
